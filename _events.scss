@@ -1,0 +1,25 @@
+.events{
+    &-title{
+        text-align: center;
+        color: var(--thirdy-color);
+        font-size: 4vmin;
+        margin-top: 50px;
+    }
+
+    &-row{
+        margin-top: 50px;
+
+        &-col{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img{
+            width: 80%;
+        }
+
+        .btn{
+            margin-top: 30px;
+        }
+    }
+}
